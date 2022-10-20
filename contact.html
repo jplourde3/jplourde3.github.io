@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS Comparison - Contact</title>
+    <link rel="stylesheet" href="./stylesheets/oscomparison.css">
+  </head>
+
+  <header>
+    <h1>Anything I missed?</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./windows.html">Windows</a></li>
+      <li><a href="./macos.html">Mac OS</a></li>
+      <li><a href="./linux.html">Linux</a></li>
+      <li><a href="./chromeos.html">Chrome OS</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <p>
+      If there is any information you find important 
+      that is missing from this website. Please fill out 
+      this form to let me know!
+    </p>
+    <p>All fields are required</p>
+
+    <form name="contact" method="post" action="https://itsd.cvtc.edu/web1/contact.php">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Your Name" required="required">
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Your E-Mail" required="required">
+
+      <label for="message">What did I miss?:</label>
+      <textarea name="message" id="message" rows="2" cols="30" required="required" placeholder="Type your suggestion here"></textarea>
+
+      <label for="phone_number">Phone Number:</label>
+      <input type="tel" name="phone_number" id="phone_number" placeholder="(555) 555-5555" required="required">
+
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+
+  <footer>
+    <small>
+      Copyright &copy; 2022 Joshua Plourde<br>
+      <a href="mailto:jplourde3@student.cvtc.edu">jplourde3@student.cvtc.edu</a>
+    </small>
+  </footer>
+</html>
+
