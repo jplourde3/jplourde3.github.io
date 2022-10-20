@@ -1,0 +1,260 @@
+header, main, nav, footer, figure, figcaption, aside, section, article {
+  display:block;
+}
+
+main {
+  padding: 20px;
+  display: block;
+  background-color: #C0C5CE;
+  margin-left: 175px;
+}
+
+body {
+  color: #222025;
+  background-color: #C0C5CE;
+  font-family: Verdana;
+}
+
+header {
+  background-color: #b3b3b3;
+}
+
+footer {
+  color: #000000;
+  background-color: #b3b3b3;
+  font-size: 1em;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+}
+
+footer :link {
+  color: #343d46;
+}
+
+footer :visited {
+  color: #000000;
+}
+
+footer :hover a {
+  color: #FFF;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  margin-right: auto;
+  float: left;
+  height: 210px;
+  width: 160px;
+  background-color: #C0C5CE;
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 20px;
+  padding-left: 0px;
+}
+
+nav :link {
+  color: #343d46;
+}
+
+nav :visited {
+  color: #4f5b66;
+}
+
+nav :hover {
+  color: #F5F5DC;
+}
+
+#windows {
+  font-family: Georgia, 'Times New Roman', serif;
+  height: 150px;
+  margin: 0px;
+  text-indent: -9999px;
+  background-image: url("../images/Windows\ Logo.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mac {
+  font-family: Georgia, 'Times New Roman', serif;
+  height: 150px;
+  margin: 0px;
+  padding-top: 10px;
+  text-indent: -9999px;
+  background-image: url("../images/MacOS\ Logo.png");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#linux {
+  font-family: Georgia, 'Times New Roman', serif;
+  height: 150px;
+  margin: 0px;
+  padding-top: 10px;
+  text-indent: -9999px;
+  background-image: url("../images/Linux\ Logo.png");
+  background-size: 130px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#chrome {
+  font-family: Georgia, 'Times New Roman', serif;
+  height: 150px;
+  margin: 0px;
+  padding-top: 10px;
+  text-indent: -9999px;
+  background-image: url("../images/ChromeOS\ Logo.png");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  height: 110px;
+  display: block;
+  font-weight: bold;
+  padding-top: 50px;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', serif;
+  background-color: #A7ADBA;
+}
+
+h3 {
+  background-color: #b3b3b3;
+  text-transform: capitalize;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: inline;
+}
+
+table {
+  margin: auto;
+  width: 100%;
+  border: 1px solid;
+}
+
+
+td th {
+  padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #b3b3b3;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input [type="submit"] {
+  margin-left: 130px
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 64em) {
+  body {
+    margin: 0px;
+  }
+
+  h1 {
+    margin: 0px;
+  }
+
+  main {
+    margin-left: 0px;
+  }
+
+  nav {
+    float: none;
+    width: auto;
+    padding: 0px;
+    height: auto;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav li {
+    display: inline;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: .75em;
+    padding-right: .75em;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  nav li {
+    display: inline-block;
+    width: 5em;
+    text-align: center;
+    box-shadow: 2px 2px 2px #330000;
+    background-color: #b3b3b3;
+    margin: 1%;
+    padding: 2.5%;
+  }
+
+  h1 {
+    height: auto;
+  }
+
+  #windows {
+    background-size: 350px;
+  }
+  
+  nav a {
+    display: block;
+  }
+
+  nav :hover {
+    color: #333300;
+  }
+
+  input [type="submit"] {
+    margin-left: 0
+  }
+
+  .mobile {
+    display: inline;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
